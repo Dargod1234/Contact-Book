@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Contactos</title>
+</head>
+<body>
+    <div class="wrap">
+        <ul class="tabs">
+            <li><a href="#tab1" class="active"><span class="material-icons"> library_add </span> <span>Registro</span></a></li>
+            <li><a href="#tab2"><span class="material-icons"> contacts </span> <span>Contactos</span></a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <article id="tab1">
+            <div class="formulario-datos">
+                <input type="text" class="Nombre" placeholder="Nombre">
+                <input type="text" class="Numero" placeholder="Numero">
+                <input type="text" class="Direccion" placeholder="Direccion">
+            </div>
+            <div class="button">
+                <button class="add-contacto"><span>Agregar contacto</span> </button>
+            </div>
+        </article>
+        <article id="tab2">
+            <div class="listado-tareas">
+
+            </div>
+        </article>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="funciones.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
